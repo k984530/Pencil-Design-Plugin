@@ -1,0 +1,11 @@
+{
+  "name": "pencil-design",
+  "version": "2.0.0",
+  "description": "Pencil.dev를 활용한 AI 디자인 워크플로우 플러그인. 디자인 시스템 관리, 레퍼런스 구성, 디자인 디스크립션 작성을 지원합니다.",
+  "author": {
+    "name": "Claude Code Plugin",
+    "email": "plugin@example.com"
+  },
+  "keywords": ["design", "pencil", "ui", "ux", "design-system", "moodboard"],
+  "license": "MIT"
+}

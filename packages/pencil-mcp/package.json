@@ -1,0 +1,46 @@
+{
+  "name": "@pencil-dev/mcp",
+  "version": "0.1.0",
+  "description": "MCP (Model Context Protocol) server for Pencil.dev - AI-powered design tool integration",
+  "main": "dist/index.js",
+  "bin": {
+    "pencil-mcp": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "pencil",
+    "design",
+    "ai",
+    "figma-alternative",
+    "claude"
+  ],
+  "author": "Pencil.dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pencil-dev/mcp"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
