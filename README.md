@@ -1,5 +1,8 @@
 # Pencil Design Plugin
 
+[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blue)](https://claude.ai/code)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Pencil.dev를 활용한 AI 디자인 워크플로우 플러그인입니다.
 
 ## 기능
@@ -11,8 +14,30 @@ Pencil.dev를 활용한 AI 디자인 워크플로우 플러그인입니다.
 
 ## 설치
 
+### 방법 1: 마켓플레이스를 통한 설치 (권장)
+
+Claude Code에서 다음 명령어를 실행하세요:
+
 ```bash
-claude --plugin-dir /path/to/pencil-design
+# 1. 마켓플레이스 추가
+/plugin marketplace add k984530/Pencil-Design-Plugin
+
+# 2. 플러그인 설치
+/plugin install pencil-design@pencil-design-marketplace
+```
+
+### 방법 2: 직접 설치
+
+```bash
+# GitHub에서 직접 추가
+/plugin add https://github.com/k984530/Pencil-Design-Plugin
+```
+
+### 방법 3: 로컬 설치 (개발용)
+
+```bash
+git clone https://github.com/k984530/Pencil-Design-Plugin.git
+claude --plugin-dir ./Pencil-Design-Plugin
 ```
 
 ## 사용법
